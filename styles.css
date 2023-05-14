@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply block font-bold text-white py-4 px-5 rounded-md bg-black cursor-pointer mb-4 md:max-w-max md:mb-4;
+  }
+
+  .btn-span {
+    @apply font-normal text-text_button;
+  }
+}
